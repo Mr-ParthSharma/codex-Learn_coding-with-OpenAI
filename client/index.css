@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .main{
+    background: url(./assets/background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.70;
+    z-index: -1;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: #10a37f;
+    font-weight: 900;
+    padding: 0 20px;
+  }
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 40px;
+    text-decoration: none;
+  }
+  a > button {
+    font-size: 1.8rem;
+    padding: 8px 16px;
+    border-radius: 25px;
+    background-color: aquamarine;
+    font-weight: 700;
+    color: navy;
+    letter-spacing: 1px;
+    border: 1px solid navy;
+  }

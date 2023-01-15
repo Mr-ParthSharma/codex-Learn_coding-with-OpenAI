@@ -15,7 +15,6 @@ body {
 
 #app {
   width: 100vw;
-  height: 80%;
   overflow: hidden;
   background: #343541;
 
@@ -142,6 +141,8 @@ form {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  position: absolute;
+  bottom: 0;
 }
 
 textarea {
